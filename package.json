@@ -1,0 +1,26 @@
+{
+  "name": "is-binary-search-tree",
+  "version": "1.0.0",
+  "description": "Function must return a boolean denoting whether or not the binary tree is a binary search tree.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boivlad/isBinarySearchTree.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/boivlad/isBinarySearchTree/issues"
+  },
+  "homepage": "https://github.com/boivlad/isBinarySearchTree#readme",
+  "dependencies": {
+    "mocha": "^7.1.1"
+  }
+}
