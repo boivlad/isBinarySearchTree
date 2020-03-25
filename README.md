@@ -1,7 +1,7 @@
 # Is Binary Search Tree
 [![Build Status](https://travis-ci.com/boivlad/isBinarySearchTree.svg?branch=algorithm)](https://travis-ci.com/boivlad/isBinarySearchTree)
 
-###[Is This a Binary Search Tree?(Task)](./is-binary-search-tree-English.pdf)
+### [Is This a Binary Search Tree?(Task)](./is-binary-search-tree-English.pdf)
 ## How to test:
 1. Clone this repository
 2. `npm intsall`
