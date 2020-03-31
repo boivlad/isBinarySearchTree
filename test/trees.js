@@ -88,49 +88,28 @@ module.exports.third = {
               value: 15,
               left: {
                 value: 15,
-                left: {
+                left: { // 8
                   value: 15,
-                  left: {
+                  right: {
                     value: 15,
-                    left: undefined,
+                    left: {
+                      value: 15,
+                      left: { value: 15, left: undefined, right: undefined },
+                      right: { value: 15, left: undefined, right: undefined }
+                    },
                     right: {
                       value: 15,
-                      left: {
-                        value: 15,
-                        left: {
-                          value: 15,
-                          left: undefined,
-                          right: undefined,
-                        },
-                        right: {
-                          value: 15,
-                          left: undefined,
-                          right: undefined,
-                        },
-                      },
-                      right: {
-                        value: 15,
-                        left: undefined,
-                        right: {
-                          value: 15,
-                          left: undefined,
-                          right: undefined,
-                        },
-                      },
+                      right: { value: 16, left: undefined, right: undefined }
                     },
                   },
-                  right: undefined,
+                  left: { value: 15, left: undefined, right: undefined },
                 },
                 right: {
                   value: 15,
                   left: {
                     value: 15,
                     left: undefined,
-                    right: {
-                      value: 15,
-                      left: undefined,
-                      right: undefined,
-                    },
+                    right: { value: 15, left: undefined, right: undefined, },
                   },
                   right: undefined,
                 },
@@ -141,11 +120,7 @@ module.exports.third = {
               value: 15,
               left: {
                 value: 15,
-                left: {
-                  value: 15,
-                  left: undefined,
-                  right: undefined,
-                },
+                left: { value: 15, left: undefined, right: undefined, },
                 right: undefined,
               },
               right: undefined,
@@ -160,9 +135,7 @@ module.exports.third = {
             left: {
               value: 15,
               left: {
-                value: 15,
-                left: undefined,
-                right: undefined,
+                value: 15, left: undefined, right: undefined,
               },
               right: {
                 value: 15,
@@ -172,11 +145,7 @@ module.exports.third = {
                     value: 15,
                     left: {
                       value: 15,
-                      left: {
-                        value: 15,
-                        left: undefined,
-                        right: undefined,
-                      },
+                      left: { value: 15, left: undefined, right: undefined, },
                       right: undefined,
                     },
                     right: undefined,
@@ -186,11 +155,7 @@ module.exports.third = {
                 right: {
                   value: 15,
                   left: undefined,
-                  right: {
-                    value: 15,
-                    left: undefined,
-                    right: undefined,
-                  },
+                  right: { value: 15, left: undefined, right: undefined, },
                 },
               },
             },
@@ -199,24 +164,12 @@ module.exports.third = {
           right: undefined,
         },
       },
-      right: {
-        value: 15,
-        left: undefined,
-        right: undefined,
-      },
+      right: { value: 15, left: undefined, right: undefined, },
     },
     right: {
       value: 15,
-      left: {
-        value: 15,
-        left: undefined,
-        right: undefined,
-      },
-      right: {
-        value: 15,
-        left: undefined,
-        right: undefined,
-      },
+      left: { value: 15, left: undefined, right: undefined, },
+      right: { value: 15, left: undefined, right: undefined, },
     },
   },
   right: {
@@ -239,33 +192,17 @@ module.exports.third = {
                   right: {
                     value: 15,
                     left: undefined,
-                    right: {
-                      value: 15,
-                      left: undefined,
-                      right: undefined,
-                    },
+                    right: { value: 15, left: undefined, right: undefined, },
                   },
                 },
-                right: {
-                  value: 15,
-                  left: undefined,
-                  right: undefined,
-                },
+                right: { value: 15, left: undefined, right: undefined, },
               },
-              right: {
-                value: 15,
-                left: undefined,
-                right: undefined,
-              },
+              right: { value: 15, left: undefined, right: undefined, },
             },
             right: {
               value: 15,
               left: undefined,
-              right: {
-                value: 15,
-                left: undefined,
-                right: undefined,
-              },
+              right: { value: 15, left: undefined, right: undefined, },
             },
           },
           right: {
@@ -284,11 +221,7 @@ module.exports.third = {
                       left: undefined,
                       right: {
                         value: 15,
-                        left: {
-                          value: 15,
-                          left: undefined,
-                          right: undefined,
-                        },
+                        left: { value: 15, left: undefined, right: undefined, },
                         right: undefined,
                       },
                     },
@@ -296,18 +229,10 @@ module.exports.third = {
                   right: {
                     value: 15,
                     left: undefined,
-                    right: {
-                      value: 15,
-                      left: undefined,
-                      right: undefined,
-                    },
+                    right: { value: 15, left: undefined, right: undefined, },
                   },
                 },
-                right: {
-                  value: 15,
-                  left: undefined,
-                  right: undefined,
-                },
+                right: { value: 15, left: undefined, right: undefined, },
               },
               right: {
                 value: 15,
@@ -323,11 +248,7 @@ module.exports.third = {
                       right: {
                         value: 15,
                         left: undefined,
-                        right: {
-                          value: 15,
-                          left: undefined,
-                          right: undefined,
-                        },
+                        right: { value: 15, left: undefined, right: undefined, },
                       },
                     },
                   },
@@ -340,11 +261,7 @@ module.exports.third = {
         },
         right: undefined,
       },
-      right: {
-        value: 15,
-        left: undefined,
-        right: undefined,
-      },
+      right: { value: 15, left: undefined, right: undefined, },
     },
     right: {
       value: 15,
@@ -353,24 +270,12 @@ module.exports.third = {
         value: 15,
         left: {
           value: 15,
-          left: {
-            value: 15,
-            left: undefined,
-            right: undefined,
-          },
-          right: {
-            value: 15,
-            left: undefined,
-            right: undefined,
-          },
+          left: { value: 15, left: undefined, right: undefined, },
+          right: { value: 15, left: undefined, right: undefined, },
         },
         right: {
           value: 15,
-          left: {
-            value: 15,
-            left: undefined,
-            right: undefined,
-          },
+          left: { value: 15, left: undefined, right: undefined, },
           right: {
             value: 15,
             left: {
@@ -378,29 +283,14 @@ module.exports.third = {
               left: {
                 value: 15,
                 left: undefined,
-                right: {
-                  value: 15,
-                  left: undefined,
-                  right: undefined,
-                },
+                right: { value: 15, left: undefined, right: undefined, },
               },
               right: undefined,
             },
-            right: {
-              value: 15,
-              left: undefined,
-              right: undefined,
-            },
+            right: { value: 15, left: undefined, right: undefined, },
           },
         },
       },
     },
   }
 };
-// value:15,
-// left: {
-//
-// },
-// right: {
-//
-// },
